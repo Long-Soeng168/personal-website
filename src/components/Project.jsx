@@ -4,7 +4,7 @@ const Project = (props) => {
   const isEven = props.id % 2;
   return (
     <div className='flex flex-col md:flex-row md:justify-center justify-center items-center gap-10 md:gap-20 mb-20 '>
-      <div  className= {`${isEven ? 'md:order-2' : ''}  sm:hover:scale-125 duration-300`}>
+      <div  className= {`${!isEven ? 'md:order-2' : ''}  sm:hover:scale-125 duration-300`}>
         <img
           className='max-w-xs sm:max-w-md w-full'
           src={props.img}
