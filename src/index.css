@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: rgb(255, 255, 95);
+  color: rgb(61, 1, 61);
+}
+
+.animated-gradient {
+  animation: animateBg 4s linear infinite;
+  background-image: linear-gradient(90deg,#23c6b6,#bacf1c,#b32ec7,#1cb0b0,#28b4c6,#c7cd16);
+  background-size: 500% 100%;
+}
+@keyframes animateBg {
+  0% { background-position: 100% 0%; }
+  100% { background-position: 0% 0%; }
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+.btn:hover {
+  animation: play 1.6s linear infinite;
+}
+
+.btn {
+  box-sizing: border-box;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  position: relative;
+  overflow: hidden;
+  display: block;
+  border-radius: 5px;
+}
+
+.btn span.light {
+  background-color: white;
+  color: black;
+}
+.btn span.dark {
+  background-color: black;
+}
+
+.btn span {
+  color: white;
+  padding: 5px 30px;
+  margin: 5px;
+  font-size: 22px;
+  display: block;
+  border-radius: 5px;
+}
+
+@keyframes play {
+  0% {
+      background-position: 0px;
+  }
+  20% {
+      background-position: -110px;
+  }
+  35% {
+      background-position: -180px;
+  }
+  50% {
+      background-position: -210px;
+  }
+  80% {
+      background-position: -350px;
+  }
+  100% {
+      background-position: -390px;
+  }
+}
