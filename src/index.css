@@ -41,6 +41,11 @@
 .btn:hover {
   animation: play 1.6s linear infinite;
 }
+@media screen and (max-width: 600px) {
+  .btn-animated {
+    animation: play 1.6s linear infinite;
+  }
+}
 
 .btn {
   box-sizing: border-box;

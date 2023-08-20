@@ -1,3 +1,6 @@
+import { FaGit, FaGithub, FaJava } from "react-icons/fa"
+import {TbBrandCpp} from "react-icons/tb"
+import {SiMicrosoftoffice} from "react-icons/si"
 
 const MySkills = () => {
   return (
@@ -18,11 +21,15 @@ const MySkills = () => {
       </div>
       <div className="text-center mt-24">
         <h3 className="text-3xl font-medium mb-4">
-          <span className="text-teal-500 underline underline-offset-4">Other basic skills</span>
+          <span className="border-b-8 border-b-teal-400">Other basic skills</span>
         </h3>
-        <p className="text-2xl text-gray-700 dark:text-white">
-          git, GitHub, C++, Java, illustrator, Microsoft Office
-        </p>
+        <div className="text-4xl text-gray-700 dark:text-white flex justify-center gap-x-20 gap-y-10 flex-wrap mt-10">
+          <FaGit />
+          <FaGithub />
+          <TbBrandCpp />
+          <FaJava />
+          <SiMicrosoftoffice />
+        </div>
       </div>
     </section>
   )

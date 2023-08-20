@@ -11,7 +11,7 @@ const Header = (props) => {
       <ul className='flex items-center'>
         <li
           onClick={props.toggleDarkMode}
-          className='mr-8 text-3xl cursor-pointer relative hover:scale-125 duration-500'
+          className='mr-4 sm:mr-8 text-3xl cursor-pointer relative hover:scale-125 duration-500'
         >
           {
               props.isDark? <FaMoon /> :  <FaSun className=' animate-spin'/>
@@ -20,7 +20,7 @@ const Header = (props) => {
         <li className=' hover:scale-110 active:scale-100 duration-300'>
           <a
             href="#"
-            className='btn'
+            className='btn btn-animated'
           >
             <span className={`${props.isDark? 'dark' : 'light'}`}>Resume</span>
           </a>

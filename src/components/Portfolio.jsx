@@ -15,7 +15,7 @@ const Portfolio = () => {
               and Tailwind CSS skills after learning the basics from YouTube courses.
             </p>
             <h3 className='mt-6 mb-4'>
-              Tool : <span className='font-medium'>HTML, React JS, Tailwind CSS, Figma</span>
+              Tool : <span className='font-medium'>HTML, React JS, <span className='whitespace-nowrap'>Tailwind CSS</span>, Figma</span>
             </h3>
             <h3 className='cursor-pointer text-teal-500 dark:text-teal-300'>
               <span className='underline underline-offset-4 hover:underline-offset-8 duration-300'>

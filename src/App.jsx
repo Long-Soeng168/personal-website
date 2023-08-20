@@ -23,7 +23,7 @@ function App() {
 
   return (
     <main className={` font-Poppins ${isDark ? 'dark' : ''}`}>
-      <div className='dark:bg-slate-950 dark:text-white sm:px-10 px-6 min-h-screen'>
+      <div className='dark:bg-slate-950 dark:text-white sm:px-10 px-4 min-h-screen'>
 
         <Header
           toggleDarkMode={toggleDarkMode}
