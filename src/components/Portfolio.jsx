@@ -18,9 +18,13 @@ const Portfolio = () => {
               Tool : <span className='font-medium'>HTML, React JS, <span className='whitespace-nowrap'>Tailwind CSS</span>, Figma</span>
             </h3>
             <h3 className='cursor-pointer text-teal-500 dark:text-teal-300'>
-              <span className='underline underline-offset-4 hover:underline-offset-8 duration-300'>
+              <a 
+                href='https://github.com/Long-Soeng168/personal-website' 
+                target='_blank'
+                className='underline underline-offset-4 hover:underline-offset-8 duration-300'
+              >
                 GitHub CODE
-              </span>
+              </a>
             </h3>
           </div>
     </section>

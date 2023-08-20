@@ -11,9 +11,12 @@ const AboutMe = () => {
           My name is <span className="whitespace-nowrap">Long Soeng</span> and I am a second-year student majoring in Information Technology.💻 </p>
         <p className="text-lg mb-2">I am passionate about web development and UX/UI design. My goal is to become a full-stack web developer who can do Frontend, Backend and UX/UI.</p>
         <a href="#" className="text-lg">Check out my 
-          <span className=" text-teal-600 dark:text-teal-300 underline ml-2 hover:ml-4 duration-300">
+          <a
+            href="https://drive.google.com/file/d/1LKCMBp7CMNExT2v60Rv82fTP42WzRsFZ/view?usp=sharing"
+            target="_blank" 
+            className=" text-teal-600 dark:text-teal-300 underline ml-2 hover:ml-4 duration-300">
             Resume or CV <FaChevronRight className="inline text-sm"/>
-          </span>
+          </a>
         </a>
       </div>
       <div className="relative flex justify-center">

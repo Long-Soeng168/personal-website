@@ -12,7 +12,7 @@ const UxUiSection = () => {
     <section className="mb-32">
       <h2 className=" text-center mt-32 mb-14">
         <span className="text-3xl font-medium border-b-8 border-b-teal-300">UX/UI Projects</span>
-        <p className="my-10 text-yellow-500 text-lg">Click image or Text below to view!</p>
+        <p className="my-10 text-purple-500  text-lg">Click on image or Text below to view!</p>
       </h2>
       <section className="flex flex-row flex-wrap items-start justify-center gap-14">
         {uiProjectsElement}
