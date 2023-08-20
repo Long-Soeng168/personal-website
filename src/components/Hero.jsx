@@ -12,8 +12,8 @@ const Hero = () => {
           <h2 className='text-2xl font-medium sm:mb-8 mb-4 text-teal-500 dark:text-teal-300'>
             A Web Developer <span className='text-gray-600 font-light dark:text-gray-300'>and</span> <span className='whitespace-nowrap'>UX/UI Designer</span>
           </h2>
-          <p className='text-xl leading-8 mb-10 text-gray-600 dark:text-gray-300 max-w-[60ch]'>
-            A second-year student who is passionate about <span className='whitespace-nowrap'>web development. </span>
+          <p className='text-[18px] sm:text-xl leading-8 mb-10 text-gray-600 dark:text-gray-300 max-w-[60ch]'>
+            I am a second-year student who is passionate about <span className='whitespace-nowrap'>web development. </span>
             <p>My goal is to become a full-stack web developer.</p>
           </p>
         </div>
