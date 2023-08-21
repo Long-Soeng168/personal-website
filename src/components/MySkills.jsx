@@ -8,7 +8,7 @@ const MySkills = () => {
       <h2 className="w-full text-center mb-20">
         <span className="text-4xl font-medium border-b-8 border-b-teal-400">My Skills💻</span>
       </h2>
-      <div className="flex justify-center items-center mx-auto flex-wrap gap-12 md:gap-16 max-w-5xl">
+      <div className="flex justify-center items-center mx-auto flex-wrap gap-10 md:gap-16 max-w-5xl">
         <Skill img='html.png' name='HTML' />
         <Skill img='css.png' name='CSS' />
         <Skill img='javascript.png' name='JavaScript' />

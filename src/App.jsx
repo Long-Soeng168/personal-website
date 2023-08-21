@@ -8,8 +8,6 @@ import UxUiSection from './components/UxUiSection'
 import AboutMe from './components/AboutMe'
 import MySkills from './components/MySkills'
 
-
-
 function App() {
   const [isDark, setIsDark] = useState(localStorage.getItem('theme') || false)
 
