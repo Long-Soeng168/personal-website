@@ -7,7 +7,7 @@ const Hero = () => {
       <div className='flex flex-wrap items-center justify-center'>
         <div className=''>
           <h2 className='lg:text-5xl text-4xl font-medium lg:mb-8 mb-4 text-teal-500 dark:text-teal-300'>
-            <span className='text-3xl'>Hello! My name is</span> <span className='font-bold whitespace-nowrap'>Long Soeng. <span className='wave cursor-help'>👋</span></span>
+            <span className='text-3xl'>Hello! My name : </span> <span className='font-bold whitespace-nowrap'>Long Soeng. <span className='wave cursor-help'>👋</span></span>
           </h2>
           <h2 className='text-2xl font-medium sm:mb-8 mb-4 text-teal-500 dark:text-teal-300'>
             A Web Developer <span className='text-gray-600 font-light dark:text-gray-300'>and</span> <span className='whitespace-nowrap'>UX/UI Designer</span>
